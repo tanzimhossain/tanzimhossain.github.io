@@ -2047,7 +2047,7 @@ ul.marquee .marque-tit {
     height: 45px;
     line-height: 45px;
     margin: 2px;
-    padding: 0;
+    padding: 15px;
     text-align: center;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.82);
