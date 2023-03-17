@@ -2022,8 +2022,14 @@ ul.marquee .marque-tit {
 }
 
 .team-card-container .front .front-detail {
+    /*position: absolute;
+    bottom: 5px;*/
+    padding: 5px;
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(43, 48, 59, 0.85);
 }
 
 .team-card-container .back {
