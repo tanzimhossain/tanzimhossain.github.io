@@ -299,7 +299,7 @@ a.hs-totop-link {
     width: 140px;
     height: 140px;
     padding: 5px;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .hs-headline .profile_info {
@@ -2022,8 +2022,8 @@ ul.marquee .marque-tit {
 }
 
 .team-card-container .front .front-detail {
-    /*position: absolute;
-    bottom: 5px;*/
+    position: absolute;
+    bottom: 5px;
     padding: 5px;
     position: absolute;
     bottom: 0;
@@ -2047,7 +2047,7 @@ ul.marquee .marque-tit {
     height: 45px;
     line-height: 45px;
     margin: 2px;
-    padding: 15px;
+    padding: 0;
     text-align: center;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.82);
