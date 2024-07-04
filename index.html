@@ -778,308 +778,485 @@ body {
 <!-- Publications page start -->
 
 <article class='hs-content' id='section3'>
-                            <span class='sec-icon fa fa-pencil'></span>
-                            <div class='hs-inner'><span class='before-title'>03</span><h2 class='mainpage_title'>PUBLICATIONS</h2><div id="pl-17"  class="panel-layout" ><div id="pg-17-0"  class="panel-grid panel-no-style" ><div id="pgc-17-0-0"  class="panel-grid-cell" ><div id="panel-17-0-0-0" class="so-panel widget widget_pulse_title panel-first-child panel-last-child" data-index="0">
-                                <span class="content-title">PUBLICATIONS LIST</span>
-                            </div></div></div></div>    <div class="row publication-form">
-                            <div class="col-md-6 publication-filter">
-                                <div class="card-drop">
-                                    <a class='toggle'>
-                                        <i class='icon-suitcase'></i>
-                                        <span class='label-active'>ALL</span>
-                                    </a>
-                                    <ul id="filter">
-                                        <li class="active"><a data-label="ALL" data-group="all">ALL</a></li>
-                                        <li><a data-label="Journal Paper" data-group="Journal Paper">Journal Paper</a></li> 
-                                        <li><a data-label="Conferences" data-group="Conferences">Conferences</a></li> 
-                                        <li><a data-label="arXiv Preprint" data-group="arXiv Preprint">arXiv Preprint</a></li>
-                                        <li><a data-label="Theses" data-group="Theses">Theses</a></li> 
-                                        <!--
-                                            <li><a data-label="Book" data-group="Book">Book</a></li> 
-                                            <li><a data-label="Book Chapters" data-group="Book Chapters">Book Chapters</a></li> 
-                                            <li><a data-label="Conferences" data-group="Conferences">Conferences</a></li> 
-                                            <li><a data-label="Demonstrations" data-group="Demonstrations">Demonstrations</a></li> 
-                                        -->
-                                    </ul>            
-                                </div>
-                            </div>
-                            <div class="col-md-6 publication-sort">
-                                <div class="sorting-button">
-                                    <span>SORTING BY DATE</span>                <button class="desc"><i class="fa fa-sort-numeric-desc"></i>
-                                    </button>
-                                    <button class="asc"><i class="fa fa-sort-numeric-asc"></i>
-                                    </button>
-                                </div>
-                                
-                                
-                            </div>
-                            </div>
-                            <div id="mygrid">
-                                
-                                
-                                <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
-                                    <div class="media">
-                                        <a href="https://doi.org/10.1016/j.jocs.2021.101473" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                        <div class="date pull-left">
-                                            <span class="day">15</span>
-                                            <span class="month">Oct</span>
-                                            <span class="year">2021</span>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>Computational techniques for H2 optimal frequency-limited model order reduction of large-scale sparse linear systems</h3>
-                                            <h4>Journal of Computational Science</h4>
-                                        <span class="publication_description">We consider the problem of frequency limited  optimal model order reduction for large-scale sparse linear systems. A set of first-order  optimality conditions are derived for the frequency limited model order reduction problem. These conditions involve the solution of two frequency limited Sylvester equations that are known to be computationally complex. We discuss a framework for solving these matrix equations efficiently. The idea is also extended to the frequency limited  optimal model order reduction of index-1 descriptor systems. Numerical experiments are carried out using Python programming language and the results are presented to demonstrate the approximation accuracy and computational efficiency of the proposed technique.</span> </div>
-                                        <hr style="margin:8px auto">
-                                        <span class="label label-pub">Journal Paper</span>    
-                                        <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, A. Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mian Ilyas Ahmad, Mohammad Sahadat Hossain</span>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+    <span class='sec-icon fa fa-pencil'></span>
+    <div class='hs-inner'><span class='before-title'>03</span><h2 class='mainpage_title'>PUBLICATIONS</h2><div id="pl-17"  class="panel-layout" ><div id="pg-17-0"  class="panel-grid panel-no-style" ><div id="pgc-17-0-0"  class="panel-grid-cell" ><div id="panel-17-0-0-0" class="so-panel widget widget_pulse_title panel-first-child panel-last-child" data-index="0">
+        <span class="content-title">PUBLICATIONS LIST</span>
+    </div></div></div></div>    <div class="row publication-form">
+    <div class="col-md-6 publication-filter">
+        <div class="card-drop">
+            <a class='toggle'>
+                <i class='icon-suitcase'></i>
+                <span class='label-active'>ALL</span>
+            </a>
+            <ul id="filter">
+                <li class="active"><a data-label="ALL" data-group="all">ALL</a></li>
+                <li><a data-label="Journal Paper" data-group="Journal Paper">Journal Paper</a></li> 
+                <li><a data-label="Conferences" data-group="Conferences">Conferences</a></li> 
+                <li><a data-label="arXiv Preprint" data-group="arXiv Preprint">arXiv Preprint</a></li>
+                <li><a data-label="Theses" data-group="Theses">Theses</a></li> 
+                <!--
+                    <li><a data-label="Book" data-group="Book">Book</a></li> 
+                    <li><a data-label="Book Chapters" data-group="Book Chapters">Book Chapters</a></li> 
+                    <li><a data-label="Conferences" data-group="Conferences">Conferences</a></li> 
+                    <li><a data-label="Demonstrations" data-group="Demonstrations">Demonstrations</a></li> 
+                -->
+            </ul>            
+        </div>
+    </div>
+    <div class="col-md-6 publication-sort">
+        <div class="sorting-button">
+            <span>SORTING BY DATE</span>                <button class="desc"><i class="fa fa-sort-numeric-desc"></i>
+            </button>
+            <button class="asc"><i class="fa fa-sort-numeric-asc"></i>
+            </button>
+        </div>
+        
+        
+    </div>
+    </div>
+    <div id="mygrid">
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://www.sciencedirect.com/science/article/pii/S2667305324000577" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">1</span>
+                    <span class="month">Jun</span>
+                    <span class="year">2024</span>
+                </div>
+                <div class="media-body">
+                    <h3>From pixels to pathology: A novel dual-pathway multi-scale hierarchical upsampling network for MRI-based prostate zonal segmentation</h3>
+                    <h4>Intelligent Systems with Applications</h4>
+                <span class="publication_description">Prostate cancer is a prevalent and life-threatening disease characterized by abnormal cell growth within the prostate gland. Early and accurate diagnosis of prostate cancer is crucial for effective treatment planning. Magnetic Resonance Imaging (MRI) is valuable for diagnosing and assessing prostate cancer. Medical professionals use MRI to create segmentation for detecting prostate cancer. However, existing segmentation methods are limited in accurately delineating anatomical structures and tumor regions within the prostate. This research proposes an innovative methodology for advancing MRI-based prostate segmentation...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Kazi Shahriar Sanjid, Md. Shakib Shahariar Junayed, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Yu-Long Wang, M. Monir Uddin, Sheikh Anisul Haque</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">From pixels to pathology: A novel dual-pathway multi-scale hierarchical upsampling network for MRI-based prostate zonal segmentation</h3>
+                    <span class="publication_authors">Kazi Shahriar Sanjid, Md. Shakib Shahariar Junayed, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Yu-Long Wang, M. Monir Uddin, Sheikh Anisul Haque</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://arxiv.org/pdf/2404.17235" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">26</span>
+                    <span class="month">Apr</span>
+                    <span class="year">2024</span>
+                </div>
+                <div class="media-body">
+                    <h3>Optimizing Universal Lesion Segmentation: State Space Model-Guided Hierarchical Networks with Feature Importance Adjustment</h3>
+                    <h4>arXiv</h4>
+                <span class="publication_description">Deep learning has revolutionized medical imaging by providing innovative solutions to complex healthcare challenges. Traditional models often struggle to dynamically adjust feature importance, resulting in suboptimal representation, particularly in tasks like semantic segmentation crucial for accurate structure delineation. Moreover, their static nature incurs high computational costs. To tackle these issues, we introduce Mamba-Ahnet, a novel integration of State Space Model (SSM) and Advanced Hierarchical Network (AHNet) within the MAMBA framework, specifically tailored for semantic segmentation in medical imaging.Mamba-Ahnet combines SSM's feature extraction and comprehension with AHNet's attention mechanisms and image reconstruction, aiming to enhance segmentation accuracy and robustness...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Kazi Shahriar Sanjid, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md Shakib Shahariar Junayed, M Monir Uddin</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Optimizing Universal Lesion Segmentation: State Space Model-Guided Hierarchical Networks with Feature Importance Adjustment</h3>
+                    <span class="publication_authors">Kazi Shahriar Sanjid, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md Shakib Shahariar Junayed, M Monir Uddin</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://arxiv.org/pdf/2403.17432" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">26</span>
+                    <span class="month">Mar</span>
+                    <span class="year">2024</span>
+                </div>
+                <div class="media-body">
+                    <h3>Integrating mamba sequence model and hierarchical upsampling network for accurate semantic segmentation of multiple sclerosis legion</h3>
+                    <h4>arXiv</h4>
+                <span class="publication_description">Integrating components from convolutional neural networks and state space models in medical image segmentation presents a compelling approach to enhance accuracy and efficiency. We introduce Mamba HUNet, a novel architecture tailored for robust and efficient segmentation tasks. Leveraging strengths from Mamba UNet and the lighter version of Hierarchical Upsampling Network (HUNet), Mamba HUNet combines convolutional neural networks local feature extraction power with state space models long range dependency modeling capabilities. We first converted HUNet into a lighter version, maintaining performance parity and then integrated this lighter HUNet into Mamba HUNet, further enhancing its efficiency...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Kazi Shahriar Sanjid, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md Shakib Shahariar Junayed, M Monir Uddin</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Integrating mamba sequence model and hierarchical upsampling network for accurate semantic segmentation of multiple sclerosis legion</h3>
+                    <span class="publication_authors">Kazi Shahriar Sanjid, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md Shakib Shahariar Junayed, M Monir Uddin</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/ipr2.13132" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">8</span>
+                    <span class="month">Jan</span>
+                    <span class="year">2024</span>
+                </div>
+                <div class="media-body">
+                    <h3>Topology-aware anatomical segmentation of the Circle of Willis: HUNet unveils the vascular network</h3>
+                    <h4>IET Image Processing</h4>
+                <span class="publication_description">This research investigates the Circle of Willis, a critical vascular structure vital for cerebral blood supply. A modified novel dual-pathway multi-scale hierarchical upsampling network (HUNet) is presented, tailored explicitly for accurate segmentation of Circle of Willis anatomical components from medical imaging data. Evaluating both the multi-label magnetic resonance angiography region of interest and the multi-label magnetic resonance angiography whole brain-case datasets, HUNet consistently outperforms the convolutional U-net model, demonstrating superior capabilities and achieving higher accuracy across various classes. Additionally, the HUNet model achieves an exceptional dice similarity coefficient of 98.61 and 97.95, along with intersection over union scores of 73.32 and 85.76 in both the multi-label magnetic resonance angiography region of interest and the multi-label magnetic resonance...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Md Shakib Shahariar Junayed, Kazi Shahriar Sanjid, <font color="#0FBF6D">Md. Tanzim Hossain</font>, M Monir Uddin, Sheikh Anisul Haque</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Topology-aware anatomical segmentation of the Circle of Willis: HUNet unveils the vascular network</h3>
+                    <span class="publication_authors">Md Shakib Shahariar Junayed, Kazi Shahriar Sanjid, <font color="#0FBF6D">Md. Tanzim Hossain</font>, M Monir Uddin, Sheikh Anisul Haque</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Conferences"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10441222" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">27</span>
+                    <span class="month">Feb</span>
+                    <span class="year">2024</span>
+                </div>
+                <div class="media-body">
+                    <h3>Automated Segmentation of Multiple Sclerosis Lesions using Deep Learning</h3>
+                    <h4>2023 26th International Conference on Computer and Information Technology (ICCIT)</h4>
+                <span class="publication_description">This research investigates the Circle of Willis, a critical vascular structure vital for cerebral blood supply. A modified novel dual-pathway multi-scale hierarchical upsampling network (HUNet) is presented, tailored explicitly for accurate segmentation of Circle of Willis anatomical components from medical imaging data. Evaluating both the multi-label magnetic resonance angiography region of interest and the multi-label magnetic resonance angiography whole brain-case datasets, HUNet consistently outperforms the convolutional U-net model, demonstrating superior capabilities and achieving higher accuracy across various classes. Additionally, the HUNet model achieves an exceptional dice similarity coefficient of 98.61 and 97.95, along with intersection over union scores of 73.32 and 85.76 in both the multi-label magnetic resonance angiography region of interest and the multi-label magnetic resonance...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors"><font color="#0FBF6D">Md. Tanzim Hossain</font>, Md Shakib Shahariar Junayed, Kazi Shahriar Sanjid, Abir Hossain Rohan, Mohammad A Khan, Sheikh Anisul Haque, M Monir Uddin</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Automated Segmentation of Multiple Sclerosis Lesions using Deep Learning</h3>
+                    <span class="publication_authors"><font color="#0FBF6D">Md. Tanzim Hossain</font>, Md Shakib Shahariar Junayed, Kazi Shahriar Sanjid, Abir Hossain Rohan, Mohammad A Khan, Sheikh Anisul Haque, M Monir Uddin</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Conference Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://www.sciencedirect.com/science/article/pii/S266672072300019X" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">01</span>
+                    <span class="month">June</span>
+                    <span class="year">2023</span>
+                </div>
+                <div class="media-body">
+                    <h3>A computationally effective time-restricted stability preserving H2-optimal model order reduction approach</h3>
+                    <h4>Results in Control and Optimization</h4>
+                <span class="publication_description">Several approaches for reducing model order on the definite time segments have become the topic of investigation in a series of papers that bring challenges during application in a large-scale setting. The subject of discussion of this paper is the computationally efficient time-restricted H2-optimal model order reduction method of higher dimensional sparse systems that requires the solutions of time-restricted Lyapunov and Sylvester equations. Our discussion is on developing the algorithms to solve these matrix equations that face difficulty when calculating the matrix exponential of the large-scale matrices. As a result, an efficient remedy is also proposed to compute the matrix exponential. Our ideas are also evaluated for index-1 descriptor systems apart from the generalized structure. Numerical analyses are conducted on several benchmark examples to illustrate how accurate and efficient our suggested approaches are by comparing them with the existing methods...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">A computationally effective time-restricted stability preserving H2-optimal model order reduction approach</h3>
+                    <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Conferences"]' data-date-publication="2021-05-17">
+            <div class="media">
+                <a href="https://ieeexplore.ieee.org/document/10054896" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">18</span>
+                    <span class="month">Dec</span>
+                    <span class="year">2022</span>
+                </div>
+                <div class="media-body">
+                    <h3>Estimating Aerodynamic Data via Supervised Learning</h3>
+                    <h4>International Conference on Computer and Information Technology (ICCIT)</h4>
+                <span class="publication_description">Supervised learning extracts a relationship between the input and the output from a training dataset. We consider four models – Support Vector Machine, Random Forest, Gradient Boost, and K-Nearest Neighbor – and employ them on data pertaining to airfoils in two different cases. First, given data about several different airfoil configurations, our objective is to predict the aerodynamic coefficients of a new airfoil at different angles of attack. Second, we seek to investigate how the coefficients can be estimated for a specific airfoil if the Reynolds number dramatically changes. It is our finding that the Random Forest and the Gradient Boost show promising performance in both the scenarios...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Conference Paper</span>    
+                <span class="publication_authors">Azizul Haque, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammad N. Murshed, Kife I. Bin Iqbal, M. Monir Uddin</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Estimating Aerodynamic Data via Supervised Learning</h3>
+                    <span class="publication_authors">Azizul Haque, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammad N. Murshed, Kife I. Bin Iqbal, M. Monir Uddin</span>
+                        <div class="publitypes-container">
+                        <span class="label label-pub">Conference Paper</span>                        </div>
+                        <div class="image_work">
+                            <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                        </div></div>
+                    </div>
+                </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://www.hindawi.com/journals/mpe/2022/4435167/" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">22</span>
+                    <span class="month">Nov</span>
+                    <span class="year">2022</span>
+                </div>
+                <div class="media-body">
+                    <h3>Sparsity-Preserving Two-Sided Iterative Algorithm for Riccati-Based Boundary Feedback Stabilization of the Incompressible Navier–Stokes Flow</h3>
+                    <h4>Mathematical Problems in Engineering</h4>
+                <span class="publication_description">In this paper, we explore the Riccati-based boundary feedback stabilization of the incompressible Navier–Stokes flow via the Krylov subspace techniques. Since the volume of data derived from the original models is gigantic, the feedback stabilization process through the Riccati equation is always infeasible. We apply a H2 optimal model-order reduction scheme for reduced-order modeling, preserving the sparsity of the system. An extended form of the Krylov subspace-based two-sided iterative algorithm (TSIA) is implemented, where the computation of an equivalent Sylvester equation is included for minimizing the computation time and enhancing the stability of the reduced-order models with satisfying the Wilson conditions. Inverse projection approaches are applied to get the optimal feedback matrix from the reduced-order models. To validate the efficiency of the proposed techniques, transient behaviors of the target systems are observed incorporating the tabular and figurative comparisons with MATLAB simulations. Finally, to reveal the advancement of the proposed techniques, we compare our work with some existing works...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Md. Toriqul Islam, Mahtab Uddin, M. Monir Uddin, Md. Abdul Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Sparsity-Preserving Two-Sided Iterative Algorithm for Riccati-Based Boundary Feedback Stabilization of the Incompressible Navier–Stokes Flow</h3>
+                    <span class="publication_authors">Md. Toriqul Islam, Mahtab Uddin, M. Monir Uddin, Md. Abdul Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
+            <div class="media">
+                <a href="https://doi.org/10.1016/j.jocs.2021.101473" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">15</span>
+                    <span class="month">Oct</span>
+                    <span class="year">2021</span>
+                </div>
+                <div class="media-body">
+                    <h3>Computational techniques for H2 optimal frequency-limited model order reduction of large-scale sparse linear systems</h3>
+                    <h4>Journal of Computational Science</h4>
+                <span class="publication_description">We consider the problem of frequency limited  optimal model order reduction for large-scale sparse linear systems. A set of first-order  optimality conditions are derived for the frequency limited model order reduction problem. These conditions involve the solution of two frequency limited Sylvester equations that are known to be computationally complex. We discuss a framework for solving these matrix equations efficiently. The idea is also extended to the frequency limited  optimal model order reduction of index-1 descriptor systems. Numerical experiments are carried out using Python programming language and the results are presented to demonstrate the approximation accuracy and computational efficiency of the proposed technique...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, A. Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mian Ilyas Ahmad, Mohammad Sahadat Hossain</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Computational techniques for H2 optimal frequency-limited model order reduction of large-scale sparse linear systems</h3>
+                    <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, A. Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mian Ilyas Ahmad, Mohammad Sahadat Hossain</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","arXiv Preprint"]' data-date-publication="2021-01-09">
+            <div class="media">
+                <a href="https://arxiv.org/abs/2101.04566" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">09</span>
+                    <span class="month">Jan</span>
+                    <span class="year">2021</span>
+                </div>
+                <div class="media-body">
+                    <h3>Frequency Limited H<sub>2</sub> Optimal Model Reduction of Large-Scale Sparse Dynamical Systems</h3>
+                    <h4>arXiv preprint</h4>
+                <span class="publication_description">We mainly consider the frequency limited H<sub>2</sub> optimal model order reduction of large-scale sparse generalized systems. For this purpose we need to solve two Sylvester equations. This paper proposes efficient algorithm to solve them efficiently. The ideas are also generalized to index-1 descriptor systems. Numerical experiments are carried out using Python Programming Language and the results are presented to demonstrate the approximation accuracy and computational efficiency of the proposed techniques...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">arXiv Preprint</span>    
+                <span class="publication_authors">Xin Du, M Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammaed Sahadat-Hossain</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Frequency Limited H<sub>2</sub> Optimal Model Reduction of Large-Scale Sparse Dynamical Systems</h3>
+                    <span class="publication_authors">Xin Du, M Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammaed Sahadat-Hossain</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-05-17">
+            <div class="media">
+                <a href="https://www.aimsciences.org/article/doi/10.3934/naco.2021016" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">17</span>
+                    <span class="month">May</span>
+                    <span class="year">2021</span>
+                </div>
+                <div class="media-body">
+                    <h3>Iterative Rational Krylov Algorithms for model reduction of a class of constrained structural dynamic system with Engineering applications</h3>
+                    <h4>American Institute of Mathematical Sciences (AIMS)</h4>
+                <span class="publication_description">This paper discusses model order reduction of large sparse second-order index-3 differential algebraic equations (DAEs) by applying Iterative Rational Krylov Algorithm (IRKA). In general, such DAEs arise in constraint mechanics, multibody dynamics, mechatronics and many other branches of sciences and technologies. By deecting the algebraic equations the second-order index-3 system can be altered into an equivalent standard second-order system. This can be done by projecting the system onto the null space of the constraint matrix. However, creating the projector is computationally expensive and it yields huge bottleneck during the implementation. This paper shows how to find a reduce order model without projecting the system onto the null space of the constraint matrix explicitly. To show the efficiency of the theoretical works we apply them to several data of second-order index-3 models and experimental resultants are discussed in the paper...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Xin Du, M. Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+            <div class="project_content">
+                <h3 class="publication_title">Iterative Rational Krylov Algorithms for model reduction of a class of constrained structural dynamic system with Engineering applications</h3>
+                <span class="publication_authors">Xin Du, M. Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-09-11">
+            <div class="media">
+                <a href="https://doi.org/10.38032/jea.2021.03.002" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">9</span>
+                    <span class="month">Sep</span>
+                    <span class="year">2021</span>
+                </div>
+                <div class="media-body">
+                    <h3>SVD-Krylov based Sparsity-preserving Techniques for Riccati-based Feedback Stabilization of Unstable Power System Models</h3>
+                    <h4>Journal of Engineering Advancements</h4>
+                <span class="publication_description">This paper discusses model order reduction of large sparse second-order index-3 differential algebraic equations (DAEs) by applying Iterative Rational Krylov Algorithm (IRKA). In general, such DAEs arise in constraint mechanics, multibody dynamics, mechatronics and many other branches of sciences and technologies. By deecting the algebraic equations the second-order index-3 system can be altered into an equivalent standard second-order system. This can be done by projecting the system onto the null space of the constraint matrix. However, creating the projector is computationally expensive and it yields huge bottleneck during the implementation. This paper shows how to find a reduce order model without projecting the system onto the null space of the constraint matrix explicitly. To show the efficiency of the theoretical works we apply them to several data of second-order index-3 models and experimental resultants are discussed in the paper...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Mahtab Uddin, M. Monir Uddin, M. A. Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">SVD-Krylov based Sparsity-preserving Techniques for Riccati-based Feedback Stabilization of Unstable Power System Models</h3>
+                    <span class="publication_authors">Mahtab Uddin, M. Monir Uddin, M. A. Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+        <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-09-11">
+            <div class="media">
+                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4474183" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">9</span>
+                    <span class="month">Jun</span>
+                    <span class="year">2023</span>
+                </div>
+                <div class="media-body">
+                    <h3>Reduced Order Modeling of a Class of Descriptor System on Certain Domains with the Application to Blood Flow Through the Carotid</h3>
+                    <h4>SSRN</h4>
+                <span class="publication_description">This study focuses on model order reduction for large-scale sparse index-2 descriptor systems that arise from practical problems governed by the semi-discrete Naiver Stokes equation, such as blood flow through the carotid. The goal is to reduce the system’s complexity while maintaining its critical properties within a limited frequency and time interval. To achieve this, we implicitly convert the index-2 descriptor system to an equivalent ODE system and then apply the generalized H2 optimal model reduction technique on the altered system for order reduction on the restricted frequency interval. Then this idea is extended to the order reduction in the definite time interval. The main challenge in this approach is to efficiently solve two Sylvester equations obtained from the index-2 descriptor system...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Journal Paper</span>    
+                <span class="publication_authors">Mahtab Uddin, M. Monir Uddin, M. A. Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Reduced Order Modeling of a Class of Descriptor System on Certain Domains with the Application to Blood Flow Through the Carotid</h3>
+                    <span class="publication_authors">Kife I Bin Iqbal, Xin Du, Mohammad Monir Uddin, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammed Forhad Uddin, Umair Zulfiqar</span>
+                    <div class="publitypes-container">
+                    <span class="label label-pub">Journal Paper</span>                        </div>
+                    <div class="image_work">
+                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                    </div></div>
+            </div>
+        </div>
+
+
+
+        <div class="publication_item" data-groups='["all","Conferences"]' data-date-publication="2021-05-17">
+            <div class="media">
+                <a href="https://ieeexplore.ieee.org/document/10054896" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">18</span>
+                    <span class="month">Dec</span>
+                    <span class="year">2022</span>
+                </div>
+                <div class="media-body">
+                    <h3>Estimating Aerodynamic Data via Supervised Learning</h3>
+                    <h4>International Conference on Computer and Information Technology (ICCIT)</h4>
+                <span class="publication_description">Supervised learning extracts a relationship between the input and the output from a training dataset. We consider four models - Support Vector Machine, Random Forest, Gradient Boost, and K-Nearest Neighbor - and employ them on data pertaining to airfoils in two different cases. First, given data about several different airfoil configurations, our objective is to predict the aerodynamic coefficients of a new airfoil at different angles of attack. Second, we seek to investigate how the coefficients can be estimated for a specific airfoil if the Reynolds number dramatically changes. It is our finding that the Random Forest and the Gradient Boost show promising performance in both the scenarios...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Conference Paper</span>    
+                <span class="publication_authors">Azizul Haque, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammad N. Murshed, Kife I. Bin Iqbal, M. Monir Uddin</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Estimating Aerodynamic Data via Supervised Learning</h3>
+                    <span class="publication_authors">Azizul Haque, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammad N. Murshed, Kife I. Bin Iqbal, M. Monir Uddin</span>
+                        <div class="publitypes-container">
+                        <span class="label label-pub">Conference Paper</span>                        </div>
+                        <div class="image_work">
+                            <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="publication_item" data-groups='["all","Theses"]' data-date-publication="2021-02-15">
+            <div class="media">
+                <a href="wp-content/uploads/2017/02/theses.pdf" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
+                <div class="date pull-left">
+                    <span class="day">15</span>
+                    <span class="month">Feb</span>
+                    <span class="year">2021</span>
+                </div>
+                <div class="media-body">
+                    <h3>Prediction of Idiopathic Pulmonary Fibrosis Progression Using Deep Learning</h3>
+                    <h4>BSc Theses</h4>
+                <span class="publication_description">Idiopathic Pulmonary fibrosis is a progressive lungs disease which usually gets worse over time. Once this disease damages the lungs, it cannot be cured totally. But early detection and proper diagnosis can help to keep this disease in control. It causes scarring in the lungs over time. As an effect, people face breathing difficulty. It can cause shortness of breath, even at rest. The general causes of pulmonary fibrosis can be exposure to toxic element like coal dust, asbestos fibres, silica dust, hard metal dusts etc. But in majority of the cases, the doctor cannot figure out the exact cause of this disease. That's why this disease is termed as Idiopathic Pulmonary Fibrosis. In near future, early diagnosis of pulmonary fibrosis should be possible. Deep learning model is helping to use the human resources efficiently and it is also reducing the expenses spent on the social and healthcare aspects of this deadly disease. In this project we build a model that can predict the progression of idiopathic pulmonary fibrosis. We have trained six different model, which include four different type of Efficientnet namely B0, B1, B2, B4. And ResNet50 and VGG16. Along with these model we also use quantile regression to build our final model. We have evaluated our trained model on a modified version of the Laplace Log Likelihood and we have achieved the evaluation score as high as to -6.6767 which is better than any other existing model...</span> </div>
+                <hr style="margin:8px auto">
+                <span class="label label-pub">Theses</span>    
+                <span class="publication_authors"><font color="#0FBF6D">Md. Tanzim Hossain</font>, Shazzad Hasan, Md. Saidur Rahman</span>
+            </div>
+            <div class="mfp-hide mfp-with-anim publication47 publication-detail">
+                
+                <div class="project_content">
+                    <h3 class="publication_title">Prediction of Idiopathic Pulmonary Fibrosis Progression Using Deep Learning</h3>
+                    <span class="publication_authors"><font color="#0FBF6D">Md. Tanzim Hossain</font>, Shazzad Hasan, Md. Saidur Rahman</span>
+                    <div class="publitypes-container">
+                        <span class="label label-pub">Theses</span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
                                         
-                                        <div class="project_content">
-                                            <h3 class="publication_title">Computational techniques for H2 optimal frequency-limited model order reduction of large-scale sparse linear systems</h3>
-                                            <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, A. Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mian Ilyas Ahmad, Mohammad Sahadat Hossain</span>
-                                            <div class="publitypes-container">
-                                            <span class="label label-pub">Journal Paper</span>                        </div>
-                                            <div class="image_work">
-                                                <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
-                                            </div></div>
-                                    </div>
-                                </div>
-
-
-
-
-                                <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
-                                    <div class="media">
-                                        <a href="https://doi.org/10.1016/j.rico.2023.100217" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                        <div class="date pull-left">
-                                            <span class="day">01</span>
-                                            <span class="month">June</span>
-                                            <span class="year">2023</span>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>A computationally effective time-restricted stability preserving H2-optimal model order reduction approach</h3>
-                                            <h4>Results in Control and Optimization</h4>
-                                        <span class="publication_description">Several approaches for reducing model order on the definite time segments have become the topic of investigation in a series of papers that bring challenges during application in a large-scale setting. The subject of discussion of this paper is the computationally efficient time-restricted H2-optimal model order reduction method of higher dimensional sparse systems that requires the solutions of time-restricted Lyapunov and Sylvester equations. Our discussion is on developing the algorithms to solve these matrix equations that face difficulty when calculating the matrix exponential of the large-scale matrices. As a result, an efficient remedy is also proposed to compute the matrix exponential. Our ideas are also evaluated for index-1 descriptor systems apart from the generalized structure. Numerical analyses are conducted on several benchmark examples to illustrate how accurate and efficient our suggested approaches are by comparing them with the existing methods.</span> </div>
-                                        <hr style="margin:8px auto">
-                                        <span class="label label-pub">Journal Paper</span>    
-                                        <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim publication41 publication-detail">
                                         
-                                        <div class="project_content">
-                                            <h3 class="publication_title">A computationally effective time-restricted stability preserving H2-optimal model order reduction approach</h3>
-                                            <span class="publication_authors">Xin Du, Kife I. Bin Iqbal, M. Monir Uddin, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
-                                            <div class="publitypes-container">
-                                            <span class="label label-pub">Journal Paper</span>                        </div>
-                                            <div class="image_work">
-                                                <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
-                                            </div></div>
-                                    </div>
-                                </div>
-
-
-
-
-
-
-                                <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-10-15">
-                                    <div class="media">
-                                        <a href="https://www.hindawi.com/journals/mpe/2022/4435167/" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                        <div class="date pull-left">
-                                            <span class="day">22</span>
-                                            <span class="month">Nov</span>
-                                            <span class="year">2022</span>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>Sparsity-Preserving Two-Sided Iterative Algorithm for Riccati-Based Boundary Feedback Stabilization of the Incompressible Navier–Stokes Flow</h3>
-                                            <h4>Mathematical Problems in Engineering</h4>
-                                        <span class="publication_description">In this paper, we explore the Riccati-based boundary feedback stabilization of the incompressible Navier–Stokes flow via the Krylov subspace techniques. Since the volume of data derived from the original models is gigantic, the feedback stabilization process through the Riccati equation is always infeasible. We apply a H2 optimal model-order reduction scheme for reduced-order modeling, preserving the sparsity of the system. An extended form of the Krylov subspace-based two-sided iterative algorithm (TSIA) is implemented, where the computation of an equivalent Sylvester equation is included for minimizing the computation time and enhancing the stability of the reduced-order models with satisfying the Wilson conditions. Inverse projection approaches are applied to get the optimal feedback matrix from the reduced-order models. To validate the efficiency of the proposed techniques, transient behaviors of the target systems are observed incorporating the tabular and figurative comparisons with MATLAB simulations. Finally, to reveal the advancement of the proposed techniques, we compare our work with some existing works.</span> </div>
-                                        <hr style="margin:8px auto">
-                                        <span class="label label-pub">Journal Paper</span>    
-                                        <span class="publication_authors">Md. Toriqul Islam, Mahtab Uddin, M. Monir Uddin, Md. Abdul Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim publication41 publication-detail">
-                                        
-                                        <div class="project_content">
-                                            <h3 class="publication_title">Sparsity-Preserving Two-Sided Iterative Algorithm for Riccati-Based Boundary Feedback Stabilization of the Incompressible Navier–Stokes Flow</h3>
-                                            <span class="publication_authors">Md. Toriqul Islam, Mahtab Uddin, M. Monir Uddin, Md. Abdul Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
-                                            <div class="publitypes-container">
-                                            <span class="label label-pub">Journal Paper</span>                        </div>
-                                            <div class="image_work">
-                                                <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
-                                            </div></div>
-                                    </div>
-                                </div>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-09-11">
-                                    <div class="media">
-                                        <a href="https://doi.org/10.38032/jea.2021.03.002" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                        <div class="date pull-left">
-                                            <span class="day">9</span>
-                                            <span class="month">Sep</span>
-                                            <span class="year">2021</span>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>SVD-Krylov based Sparsity-preserving Techniques for Riccati-based Feedback Stabilization of Unstable Power System Models</h3>
-                                            <h4>Journal of Engineering Advancements</h4>
-                                        <span class="publication_description">This paper discusses model order reduction of large sparse second-order index-3 differential algebraic equations (DAEs) by applying Iterative Rational Krylov Algorithm (IRKA). In general, such DAEs arise in constraint mechanics, multibody dynamics, mechatronics and many other branches of sciences and technologies. By deecting the algebraic equations the second-order index-3 system can be altered into an equivalent standard second-order system. This can be done by projecting the system onto the null space of the constraint matrix. However, creating the projector is computationally expensive and it yields huge bottleneck during the implementation. This paper shows how to find a reduce order model without projecting the system onto the null space of the constraint matrix explicitly. To show the efficiency of the theoretical works we apply them to several data of second-order index-3 models and experimental resultants are discussed in the paper.</span> </div>
-                                        <hr style="margin:8px auto">
-                                        <span class="label label-pub">Journal Paper</span>    
-                                        <span class="publication_authors">Mahtab Uddin, M. Monir Uddin, M. A. Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim publication41 publication-detail">
-                                        
-                                        <div class="project_content">
-                                            <h3 class="publication_title">SVD-Krylov based Sparsity-preserving Techniques for Riccati-based Feedback Stabilization of Unstable Power System Models</h3>
-                                            <span class="publication_authors">Mahtab Uddin, M. Monir Uddin, M. A. Hakim Khan, <font color="#0FBF6D">Md. Tanzim Hossain</font></span>
-                                            <div class="publitypes-container">
-                                            <span class="label label-pub">Journal Paper</span>                        </div>
-                                            <div class="image_work">
-                                                <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
-                                            </div></div>
-                                    </div>
-                                </div>
-                                
-                                
-                                
-                                <div class="publication_item" data-groups='["all","Journal Paper"]' data-date-publication="2021-05-17">
-                                    <div class="media">
-                                        <a href="https://www.aimsciences.org/article/doi/10.3934/naco.2021016" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                        <div class="date pull-left">
-                                            <span class="day">17</span>
-                                            <span class="month">May</span>
-                                            <span class="year">2021</span>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>Iterative Rational Krylov Algorithms for model reduction of a class of constrained structural dynamic system with Engineering applications</h3>
-                                            <h4>American Institute of Mathematical Sciences (AIMS)</h4>
-                                        <span class="publication_description">This paper discusses model order reduction of large sparse second-order index-3 differential algebraic equations (DAEs) by applying Iterative Rational Krylov Algorithm (IRKA). In general, such DAEs arise in constraint mechanics, multibody dynamics, mechatronics and many other branches of sciences and technologies. By deecting the algebraic equations the second-order index-3 system can be altered into an equivalent standard second-order system. This can be done by projecting the system onto the null space of the constraint matrix. However, creating the projector is computationally expensive and it yields huge bottleneck during the implementation. This paper shows how to find a reduce order model without projecting the system onto the null space of the constraint matrix explicitly. To show the efficiency of the theoretical works we apply them to several data of second-order index-3 models and experimental resultants are discussed in the paper.</span> </div>
-                                        <hr style="margin:8px auto">
-                                        <span class="label label-pub">Journal Paper</span>    
-                                        <span class="publication_authors">Xin Du, M. Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim publication41 publication-detail">
-                                        
-                                        <div class="project_content">
-                                            <h3 class="publication_title">Iterative Rational Krylov Algorithms for model reduction of a class of constrained structural dynamic system with Engineering applications</h3>
-                                            <span class="publication_authors">Xin Du, M. Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Md. Nazmul Islam Shuzan</span>
-                                                <div class="publitypes-container">
-                                                <span class="label label-pub">Journal Paper</span>                        </div>
-                                                <div class="image_work">
-                                                    <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
-                                                </div></div>
-                                            </div>
-                                        </div>
-
-
-
-
-
-
-                                        <div class="publication_item" data-groups='["all","Conferences"]' data-date-publication="2021-05-17">
-                                    <div class="media">
-                                        <a href="https://ieeexplore.ieee.org/document/10054896" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                        <div class="date pull-left">
-                                            <span class="day">18</span>
-                                            <span class="month">Dec</span>
-                                            <span class="year">2022</span>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>Estimating Aerodynamic Data via Supervised Learning</h3>
-                                            <h4>International Conference on Computer and Information Technology (ICCIT)</h4>
-                                        <span class="publication_description">Supervised learning extracts a relationship between the input and the output from a training dataset. We consider four models – Support Vector Machine, Random Forest, Gradient Boost, and K-Nearest Neighbor – and employ them on data pertaining to airfoils in two different cases. First, given data about several different airfoil configurations, our objective is to predict the aerodynamic coefficients of a new airfoil at different angles of attack. Second, we seek to investigate how the coefficients can be estimated for a specific airfoil if the Reynolds number dramatically changes. It is our finding that the Random Forest and the Gradient Boost show promising performance in both the scenarios.</span> </div>
-                                        <hr style="margin:8px auto">
-                                        <span class="label label-pub">Conference Paper</span>    
-                                        <span class="publication_authors">Azizul Haque, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammad N. Murshed, Kife I. Bin Iqbal, M. Monir Uddin</span>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim publication41 publication-detail">
-                                        
-                                        <div class="project_content">
-                                            <h3 class="publication_title">Estimating Aerodynamic Data via Supervised Learning</h3>
-                                            <span class="publication_authors">Azizul Haque, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammad N. Murshed, Kife I. Bin Iqbal, M. Monir Uddin</span>
-                                                <div class="publitypes-container">
-                                                <span class="label label-pub">Conference Paper</span>                        </div>
-                                                <div class="image_work">
-                                                    <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
-                                                </div></div>
-                                            </div>
-                                        </div>
-
-
-
-
-
-
-
-                                        
-                                        <div class="publication_item" data-groups='["all","Theses"]' data-date-publication="2021-02-15">
-                                            <div class="media">
-                                                <a href="wp-content/uploads/2017/02/theses.pdf" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                                <div class="date pull-left">
-                                                    <span class="day">15</span>
-                                                    <span class="month">Feb</span>
-                                                    <span class="year">2021</span>
-                                                </div>
-                                                <div class="media-body">
-                                                    <h3>Prediction of Idiopathic Pulmonary Fibrosis Progression Using Deep Learning</h3>
-                                                    <h4>BSc Theses</h4>
-                                                <span class="publication_description">Idiopathic Pulmonary fibrosis is a progressive lungs disease which usually gets worse over time. Once this disease damages the lungs, it cannot be cured totally. But early detection and proper diagnosis can help to keep this disease in control. It causes scarring in the lungs over time. As an effect, people face breathing difficulty. It can cause shortness of breath, even at rest. The general causes of pulmonary fibrosis can be exposure to toxic element like coal dust, asbestos fibres, silica dust, hard metal dusts etc. But in majority of the cases, the doctor cannot figure out the exact cause of this disease. That’s why this disease is termed as Idiopathic Pulmonary Fibrosis. In near future, early diagnosis of pulmonary fibrosis should be possible. Deep learning model is helping to use the human resources efficiently and it is also reducing the expenses spent on the social and healthcare aspects of this deadly disease. In this project we build a model that can predict the progression of idiopathic pulmonary fibrosis. We have trained six different model, which include four different type of Efficientnet namely B0, B1, B2, B4. And ResNet50 and VGG16. Along with these model we also use quantile regression to build our final model. We have evaluated our trained model on a modified version of the Laplace Log Likelihood and we have achieved the evaluation score as high as to -6.6767 which is better than any other existing model.</span> </div>
-                                                <hr style="margin:8px auto">
-                                                <span class="label label-pub">Theses</span>    
-                                                <span class="publication_authors"><font color="#0FBF6D">Md. Tanzim Hossain</font>, Shazzad Hasan, Md. Saidur Rahman</span>
-                                            </div>
-                                            <div class="mfp-hide mfp-with-anim publication47 publication-detail">
-                                                
-                                                <div class="project_content">
-                                                    <h3 class="publication_title">Prediction of Idiopathic Pulmonary Fibrosis Progression Using Deep Learning</h3>
-                                                    <span class="publication_authors"><font color="#0FBF6D">Md. Tanzim Hossain</font>, Shazzad Hasan, Md. Saidur Rahman</span>
-                                                    <div class="publitypes-container">
-                                                        <span class="label label-pub">Theses</span>                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        
-                                        <div class="publication_item" data-groups='["all","arXiv Preprint"]' data-date-publication="2021-01-09">
-                                            <div class="media">
-                                                <a href="https://arxiv.org/abs/2101.04566" target="blank" class="ex-link" data-effect="mfp-zoom-out"><i class="fa fa-external-link"></i></a>
-                                                <div class="date pull-left">
-                                                    <span class="day">09</span>
-                                                    <span class="month">Jan</span>
-                                                    <span class="year">2021</span>
-                                                </div>
-                                                <div class="media-body">
-                                                    <h3>Frequency Limited H<sub>2</sub> Optimal Model Reduction of Large-Scale Sparse Dynamical Systems</h3>
-                                                    <h4>arXiv preprint</h4>
-                                                <span class="publication_description">We mainly consider the frequency limited H<sub>2</sub> optimal model order reduction of large-scale sparse generalized systems. For this purpose we need to solve two Sylvester equations. This paper proposes efficient algorithm to solve them efficiently. The ideas are also generalized to index-1 descriptor systems. Numerical experiments are carried out using Python Programming Language and the results are presented to demonstrate the approximation accuracy and computational efficiency of the proposed techniques.</span> </div>
-                                                <hr style="margin:8px auto">
-                                                <span class="label label-pub">arXiv Preprint</span>    
-                                                <span class="publication_authors">Xin Du, M Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammaed Sahadat-Hossain</span>
-                                            </div>
-                                            <div class="mfp-hide mfp-with-anim publication41 publication-detail">
-                                                
-                                                <div class="project_content">
-                                                    <h3 class="publication_title">Frequency Limited H<sub>2</sub> Optimal Model Reduction of Large-Scale Sparse Dynamical Systems</h3>
-                                                    <span class="publication_authors">Xin Du, M Monir Uddin, A Mostakim Fony, <font color="#0FBF6D">Md. Tanzim Hossain</font>, Mohammaed Sahadat-Hossain</span>
-                                                    <div class="publitypes-container">
-                                                    <span class="label label-pub">Journal Paper</span>                        </div>
-                                                    <div class="image_work">
-                                                        <img width="1280" height="915" src="wp-content/uploads/2017/02/works.jpg" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works.jpg 1280w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-300x214.jpg 300w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-768x549.jpg 768w, https://codiux-labs.com/wp-pulse1/wp-content/uploads/2017/02/works-1024x732.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /> 
-                                                    </div></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                </div></article>
+        </article>
 
 <!-- Publication page end -->
 
@@ -1155,26 +1332,7 @@ body {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6
-                                            teamcol">
-                                                <div class="team-card-container">
-                                                    <div class="card">
-                                                        <div class="front" style="z-index: 2;background: linear-gradient(rgba(43, 48, 59, 0.2), rgba(43, 48, 59, 0.2)), url(wp-content/uploads/2017/02/rohan.jpg);background: -webkit-linear-gradient(rgba(43, 48, 59, 0.2), rgba(43, 48, 59, 0.2)), url(wp-content/uploads/2017/02/rohan.jpg);     background-size: cover; background-repeat: no-repeat;background-position: center center;">
-                                                            <div class="front-detail">
-                                                                <h3 style="color: #0FBF6D;"><b>Abir Hossain Rohan</b></h4>
-                                                                <h4>RESEARCH FELLOW</h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="back">
-                                                            <div class="social-icons">
-                                                                <a href="mailto:ab.rohan462@gmail.com"><i class="fa fa-envelope"></i></a>
-                                                                <a href="https://www.facebook.com/abirhossain.rohan.35" target="_blank" ><i class="fa fa-facebook"></i></a>
-                                                                <a href="https://www.instagram.com/abir_hossain_rohan/" target="_blank" ><i class="fa fa-instagram"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6
                                             teamcol">
                                                 <div class="team-card-container">
@@ -1190,6 +1348,7 @@ body {
                                                                 <a href="mailto:ratimshariar@gmail.com"><i class="fa fa-envelope"></i></a>
                                                                 <a href="https://www.facebook.com/ratim.33" target="_blank" ><i class="fa fa-facebook"></i></a>
                                                                 <a href="https://www.linkedin.com/in/kazi-shahriar-sanjid-302a031a5/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                                                                <a href="https://scholar.google.com/citations?user=nP85SgUAAAAJ&hl=en" target="_blank" ><i class="fa fa-star"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1210,6 +1369,27 @@ body {
                                                                 <a href="mailto:junayed12sents@gmail.com"><i class="fa fa-envelope"></i></a>
                                                                 <a href="https://www.facebook.com/xavierfrox.junayed" target="_blank" ><i class="fa fa-facebook"></i></a>
                                                                 <a href="https://www.linkedin.com/in/itzjunayed/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                                                                <a href="https://scholar.google.com/citations?user=H-Uh8zUAAAAJ&hl=en" target="_blank" ><i class="fa fa-star"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6
+                                            teamcol">
+                                                <div class="team-card-container">
+                                                    <div class="card">
+                                                        <div class="front" style="z-index: 2;background: linear-gradient(rgba(43, 48, 59, 0.2), rgba(43, 48, 59, 0.2)), url(wp-content/uploads/2017/02/tahiya.jpg);background: -webkit-linear-gradient(rgba(43, 48, 59, 0.2), rgba(43, 48, 59, 0.2)), url(wp-content/uploads/2017/02/tahiya.jpg);     background-size: cover; background-repeat: no-repeat;background-position: center center;">
+                                                            <div class="front-detail">
+                                                                <h3 style="color: #0FBF6D;"><b>Tahiya Hossain</b></h4>
+                                                                <h4>RESEARCH FELLOW</h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="back">
+                                                            <div class="social-icons">
+                                                                <a href="mailto:tahiyahossain@iut-dhaka.edu"><i class="fa fa-envelope"></i></a>
+                                                                <a href="https://www.facebook.com/tahiya.hossain.5" target="_blank" ><i class="fa fa-facebook"></i></a>
+                                                                <a href="https://scholar.google.com/citations?user=A98gCzEAAAAJ&hl=en&oi=ao" target="_blank" ><i class="fa fa-star"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
