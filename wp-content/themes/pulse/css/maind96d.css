@@ -2368,7 +2368,7 @@ ul.marquee .marque-tit {
 }
 
 .wrap {
-    height: 50px;
+    height: auto;
 }
 
 .bar-container {
