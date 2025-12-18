@@ -305,25 +305,38 @@
             background: #0FBF6D;
         }
 
-        .hs-content-wrapper {
-            width: 100%;
-            max-width: 100%;
-            box-sizing: border-box;
-            overflow-x: hidden;
+        /* Desktop: keep wide horizontal layout for large screens (restore original behavior) */
+        @media (min-width: 1200px) {
+            .hs-content-wrapper {
+                width: 6400px;
+                max-width: none;
+                box-sizing: content-box;
+                overflow-x: visible;
+            }
+
+            .hs-content {
+                width: 700px;
+                max-width: none;
+                box-sizing: content-box;
+            }
         }
 
-        .hs-content {
-            width: 100%;
-            max-width: 700px;
-            margin: 0 auto;
-            box-sizing: border-box;
+        /* Mobile / tablet: fluid, center content and prevent horizontal cropping */
+        @media (max-width: 1199px) {
+            .hs-content-wrapper {
+                width: 100%;
+                max-width: 100%;
+                box-sizing: border-box;
+                overflow-x: hidden;
+            }
+
+            .hs-content {
+                width: 100%;
+                max-width: 700px;
+                margin: 0 auto;
+                box-sizing: border-box;
+            }
         }
-    </style>
-    <link rel="icon" type="image/png" href="../../demo.codiux.com/wp-pulse1/wp-content/uploads/2017/02/favicon.png" />
-    <style type="text/css">
-        .recentcomments a {
-            display: inline !important;
-            padding: 0 !important;
             margin: 0 !important;
         }
     </style>
