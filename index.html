@@ -213,6 +213,17 @@
             border: 1px solid #0FBF6D;
         }
 
+        /* Hide Contact Form 7 ajax spinner next to submit button */
+        .wpcf7 .ajax-loader,
+        .wpcf7 input[type="submit"] + .ajax-loader {
+            display: none !important;
+            visibility: hidden !important;
+            width: 0 !important;
+            height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
         .contact-section .contact_info h3 {
             color: #0FBF6D;
         }
