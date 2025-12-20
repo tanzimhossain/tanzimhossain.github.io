@@ -1228,7 +1228,7 @@ ul.marquee .marque-tit {
 
 .verticaltab .nav-tabs.nav-tabs-left li a,
 .verticaltab .nav-tabs.nav-tabs-right li a {
-    color: #efefef;
+    color: #9BA1B0;
     height: 50px;
     width: 50px;
     padding: 0;
@@ -1265,8 +1265,9 @@ ul.marquee .marque-tit {
 .verticaltab .nav-tabs.nav-tabs-right li.active a:hover,
 .verticaltab .nav-tabs.nav-tabs-left li.active a:focus,
 .verticaltab .nav-tabs.nav-tabs-right li.active a:focus {
-    background: #efefef;
-    border: 1px solid #efefef;
+    background: #0FBF6D;
+    border: 1px solid #0FBF6D;
+    color: #efefef;
 }
 
 .verticaltab .nav-tabs.nav-tabs-left li:not(:last-of-type),
