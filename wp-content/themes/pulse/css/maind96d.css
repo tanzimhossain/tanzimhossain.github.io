@@ -1814,7 +1814,7 @@ ul.marquee .marque-tit {
     top: 0;
     right: 0;
     display: block;
-    color: rgba(120, 129, 149, 0.58);
+    color: #9BA1B0;
     position: absolute;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -1823,8 +1823,8 @@ ul.marquee .marque-tit {
 }
 
 .media .ex-link:hover {
-    background: #878e98;
-    color: #2c3039
+    background: #2B303B;
+    color: #9BA1B0
 }
 
 .label-pub,
@@ -5464,7 +5464,7 @@ span.wpcf7-not-valid-tip {
     }
 
     .media .ex-link {
-        background: rgba(248, 249, 251, 0.8);
+        background: #2B303B;
     }
 
     .research-section .slide-date {
